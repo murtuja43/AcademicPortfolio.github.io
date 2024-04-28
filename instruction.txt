@@ -1,0 +1,1 @@
+first remove the extra sections that you don't need. Like- if you don't want to add any publications in your website remove the whole section from "index.html"
