@@ -1,0 +1,173 @@
+:root {
+    --navbar-bgcolor: #004643;
+    --text-color: rgb(255, 255, 255);
+    --headings-color: #004643;
+    --background-color: #e8e4e6;
+    --p-color: #046779;
+    --nav-hover-color: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+}
+
+.white {
+    color: var(--text-color);
+}
+
+.greenn {
+    color: rgb(0, 54, 0);
+}
+
+.black {
+    color: black;
+}
+
+nav {
+    margin-right: 50px;
+    margin-top: 1.5rem;
+    width: 100%;
+    padding-bottom: 6px;
+    /* border-bottom: 2px solid rgb(189, 185, 185); */
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: var(--navbar-bgcolor);
+    /* background-color: rgb(211, 211, 211); */
+    padding-top: 80px;
+    margin-top: -70px;
+}
+
+h2 > a {
+    color: rgb(100, 98, 98);
+    text-decoration: none;
+    padding-left: 26px;
+    font-size: 28px;
+}
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > ul > li {
+    list-style: none;
+}
+
+nav > ul > li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+nav > ul > li a:hover {
+    color: var(--nav-hover-color);
+}
+
+.one {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.box1 {
+    grid-column: 1/3;
+    background-color: var(--navbar-bgcolor);
+    /* background-color: rgb(211, 211, 211); */
+    height: 100vh;
+    width: 20%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 48px;
+    position: fixed;
+}
+
+
+img {
+    height: 180px;
+    width: 180px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 50px;
+    opacity: 85%;
+    transition: 0.3s ease-in-out ;
+}
+
+.sidebarimg {
+    border: 4px solid white;
+}
+
+img:hover {
+    opacity: 100%;
+}
+
+.details {
+    margin-top: -135px;
+    margin-left: 26px;
+}
+
+.grey {
+    /* color: grey; */
+    font-size: 15px;
+    font-weight: normal;
+    display: inline;
+}
+
+.name {
+    margin-left: -10px;
+}
+
+.himu_name {
+    font-size: 22px;
+}
+
+.details > ul > li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.details > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-1-details {
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+
+.margin-left5px {
+    margin-left: 40px;
+}
+
+.size20px { 
+    font-size: 20px;
+}
+
+.margin-left > li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.box2 {
+    grid-column: 3/11;
+    grid-row: 3/-9;
+    background-color: var(--background-color);
+    margin-left: 20px;
+    height: 100vh;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
