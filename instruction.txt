@@ -1,1 +1,2 @@
-first remove the extra sections that you don't need. Like- if you don't want to add any publications in your website remove the whole section from "index.html"
+1. First remove the extra sections that you don't need. Like- if you don't want to add any publications in your website remove the whole section from "index.html" likwise remove any part that you don't need in any section.
+2. Replace the photo in assets forlder with your image with the exact name.
